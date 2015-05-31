@@ -162,7 +162,7 @@ function eventosTodasLasLineas(){
         if(!validarCampoExpresion('#txtCedulaL3', "^([0-9])*$") && $('#txtPlazoL3').val() != ''){
             mensajeError('#dialogNumeros', '#txtPlazoL3'); 
         }
-        if(!validarCampoExpresion('#txtPlazoL3', "^([1-9]||[1-5][0-9]||60)$") && $('#txtPlazoL1').val() != ''){
+        if(!validarCampoExpresion('#txtPlazoL3', "^([1-9]||[1-9][0-9]||1[0-1][0-9]||120)$") && $('#txtPlazoL1').val() != ''){
             mensajeError('#validaciónPlazo', '#txtPlazoL3'); 
         }
         $('.btnimprimirT3').hide();
