@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/05/2015, 01:12:41 AM
+    Author     : Donald
+*/
+
+.tipoLinea{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(http://csscheckbox.com/checkboxes/u/csscheckbox_d4fa1bcd5b4515950d0b631a928469a9.png) left top no-repeat;
+    cursor:pointer;
+}
+
+.inputBloqueado{
+    color: #b7b7b7; 
+}
+
+
+.tablaLinea {
+  border-collapse: separate;
+  border-spacing:  25px;
+}
+
+.inputLinea{
+  padding: 3px;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-size: 20px;
+}
+
+.selectLinea{
+  font-size: 20px;
+}
+
